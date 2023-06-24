@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0">
+    <title>Movies Counter</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/b96ce78090.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="container ">
+            <p class="title is-2" style="color: white;"><i class=" fas fa-theater-masks"></i> Movie Showcase </p>
+            <form action="" id="movieForm">
+                <div class="field">
+                    <label class="label title is-4" style="color: white;">Search your favorite Web series here</label>
+                    <div class="control">
+                        <span>
+                            <input class="input is-inline" type="text" name="query">
+                            <button class="button is-light">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div style="margin: 2rem;" id="showImages">
+
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

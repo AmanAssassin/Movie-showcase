@@ -1,0 +1,28 @@
+
+.movieBox
+{
+    display: inline-block;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+#showImages{
+    background: url('https://images.unsplash.com/photo-1574267432644-f410f8ec2474?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dGhlYXRlciUyMGJhY2tncm91bmR8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.setColor
+{
+    background-color: rgb(30, 32, 128);
+    margin-bottom: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+body{
+    background-color: rgba(71, 136, 196, 0.8);
+    text-align: center;
+}
